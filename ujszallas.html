@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url(kepek/bics1.jpeg); background-size: cover; background-attachment: fixed;">
+    <div class="container" id="adatok" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: stretch; margin-top: 2rem; margin-bottom: 2rem;">
+        <form action="">
+            <label style="color: white;">Név</label>
+            <input type="text" id="name">
+            <br><label style="color: white;">Hostname</label>
+            <input type="text" id="hostname">
+            <br>
+            <label style="color: white;">Helyszín</label>
+            <input type="text" id="location">
+            <br>
+            <label style="color: white;">Ára / éjszaka?</label>
+            <input type="number" id="price">
+            <br>
+            <label style="color: white;">Hány éjszaka?</label>
+            <input type="number" id="minimum_nights">
+            <br>
+            <button id="POST">Mentés</button>
+        </form>
+        
+    </div>
+    <script src="ujszallas.js"></script>
+</body>
+</html>
